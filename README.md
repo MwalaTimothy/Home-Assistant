@@ -1,13 +1,14 @@
 # Smart Device Solution Builder — Plug & Play Integration with Home Assistant 🏠
 
-> **No code. No YAML. Just plug, flash, and go.**  
-> *Updated for Home Assistant 2025.11 - Now with Enhanced Discovery, Tags, and Modern Dashboards*
+<img width="1450" height="186" alt="image" src="https://github.com/user-attachments/assets/e455f8e2-6d43-4eec-8360-6df6348dc9cc" />
 
-![Home Assistant Integration](https://github.com/home-assistant/assets/raw/master/logo/logo-small.png)
+
+ **No code. No YAML. Just plug, flash, and go.**  
+
 
 This README documents how to use the **Carenuity Solution Builder** to convert assembled smart devices into plug-and-play components for **Home Assistant**. The workflow below assumes the user will use **Google Chrome** and the IoT Triple Selector to connect their assembled device.
 
-## 🏷️ Supported Device Categories
+##  Supported Device Categories
 
 The Carenuity ecosystem supports multiple device types that integrate seamlessly with Home Assistant:
 
@@ -37,7 +38,8 @@ The Carenuity ecosystem supports multiple device types that integrate seamlessly
 
 **Carenuity Solution Builder:** [`solutions.carenuity.com`](https://solutions.carenuity.com/ecosystems/icoKdkS26vPY0YcSyASM)
 
-![Carenuity Platform](https://solutions.carenuity.com/assets/images/profile-avatar.png)
+  <img width="2245" height="722" alt="image" src="https://github.com/user-attachments/assets/f083f2e4-1b69-47e2-bf88-d09b435f5947" />
+
 
 ### Supported Microcontrollers (2025)
 - **ESP32** / **ESP32-S3** - Full featured with Wi-Fi & Bluetooth
@@ -154,7 +156,7 @@ homeassistant:
 
 ---
 
-## 🎯 Best Practices (2025 Edition)
+##  Best Practices (2025 Edition)
 
 ### Device Preparation
 * ✅ **Pre-flash verification** - Match device model with solution template  
@@ -163,10 +165,10 @@ homeassistant:
 * ✅ **Power stability** - Use quality USB cables and stable power during flashing
 
 ### Home Assistant Organization  
-* 🏷️ **Strategic tagging** - Use consistent labels: `climate`, `security`, `energy`
-* 📍 **Area mapping** - Assign devices to areas before first use
-* 🔄 **OTA updates** - Enable automatic firmware updates via Solution Builder
-* 📊 **Dashboard planning** - Group related sensors in themed dashboard cards
+*  **Strategic tagging** - Use consistent labels: `climate`, `security`, `energy`
+*  **Area mapping** - Assign devices to areas before first use
+*  **OTA updates** - Enable automatic firmware updates via Solution Builder
+*  **Dashboard planning** - Group related sensors in themed dashboard cards
 
 ### Integration Optimization
 ```yaml
@@ -183,9 +185,9 @@ sensor:
 
 ---
 
-## 📱 Modern Integration Workflow
+## Integration Workflow Summary
 
-### Enhanced 2025 Process Flow
+### Process Flow
 ```mermaid
 graph LR
     A[🔧 Assemble Device] --> B[💻 Solution Builder]
@@ -204,76 +206,7 @@ graph LR
     style G fill:#e3f2fd
 ```
 
-### Visual Workflow Diagram
-
-```html
-<svg width="800" height="280" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280">
-  <style> 
-    .box { fill:#f8f9fa; stroke:#0d47a1; stroke-width:2; rx:12; } 
-    .text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial; font-size:14px; fill:#1565c0; font-weight:500; }
-    .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial; font-size:11px; fill:#424242; }
-    .modern-arrow { stroke:#1976d2; stroke-width:3; }
-  </style>
-
-  <!-- 2025 Modern Workflow Boxes -->
-  <rect class="box" x="20" y="40" width="140" height="80" rx="12"></rect>
-  <text class="text" x="90" y="70" text-anchor="middle">🔧 Device Assembly</text>
-  <text class="subtext" x="90" y="90" text-anchor="middle">ESP32 + Sensors</text>
-  <text class="subtext" x="90" y="105" text-anchor="middle">IoT Triple Selector</text>
-
-  <rect class="box" x="190" y="40" width="140" height="80" rx="12"></rect>
-  <text class="text" x="260" y="70" text-anchor="middle">💻 Carenuity Portal</text>
-  <text class="subtext" x="260" y="90" text-anchor="middle">Chrome Web Serial</text>
-  <text class="subtext" x="260" y="105" text-anchor="middle">Solution Templates</text>
-
-  <rect class="box" x="360" y="40" width="140" height="80" rx="12"></rect>
-  <text class="text" x="430" y="70" text-anchor="middle">📡 Wi-Fi Setup</text>
-  <text class="subtext" x="430" y="90" text-anchor="middle">Captive Portal</text>
-  <text class="subtext" x="430" y="105" text-anchor="middle">Network Credentials</text>
-
-  <rect class="box" x="530" y="40" width="140" height="80" rx="12"></rect>
-  <text class="text" x="600" y="70" text-anchor="middle">🔍 Auto Discovery</text>
-  <text class="subtext" x="600" y="90" text-anchor="middle">mDNS Broadcast</text>
-  <text class="subtext" x="600" y="105" text-anchor="middle">ESPHome/MQTT</text>
-
-  <!-- Home Assistant Integration Panel -->
-  <rect class="box" x="150" y="160" width="480" height="100" rx="12" style="fill:#e8f5e8; stroke:#2e7d32;"></rect>
-  <text class="text" x="390" y="185" text-anchor="middle" style="fill:#2e7d32; font-size:16px;">🏠 Home Assistant 2025 Integration</text>
-  
-  <text class="subtext" x="200" y="210" style="fill:#1b5e20;">📍 Areas & Zones</text>
-  <text class="subtext" x="320" y="210" style="fill:#1b5e20;">🏷️ Labels & Tags</text>
-  <text class="subtext" x="450" y="210" style="fill:#1b5e20;">📊 Energy Dashboard</text>
-  <text class="subtext" x="570" y="210" style="fill:#1b5e20;">🔔 Automations</text>
-  
-  <text class="subtext" x="200" y="235" style="fill:#1b5e20;">🎨 Modern UI Cards</text>
-  <text class="subtext" x="320" y="235" style="fill:#1b5e20;">📱 Mobile App Sync</text>
-  <text class="subtext" x="450" y="235" style="fill:#1b5e20;">🗣️ Voice Control</text>
-  <text class="subtext" x="570" y="235" style="fill:#1b5e20;">☁️ Cloud Backup</text>
-
-  <!-- Modern Arrows -->
-  <defs>
-    <marker id="modern-arrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto">
-      <path d="M2 2 L10 6 L2 10 z" fill="#1976d2"/>
-    </marker>
-  </defs>
-
-  <line x1="160" y1="80" x2="190" y2="80" class="modern-arrow" marker-end="url(#modern-arrow)" />
-  <line x1="330" y1="80" x2="360" y2="80" class="modern-arrow" marker-end="url(#modern-arrow)" />
-  <line x1="500" y1="80" x2="530" y2="80" class="modern-arrow" marker-end="url(#modern-arrow)" />
-  <line x1="600" y1="120" x2="600" y2="160" class="modern-arrow" marker-end="url(#modern-arrow)" />
-
-</svg>
-```
-
-### Integration Screenshots
-
-![Home Assistant Device Discovery](https://www.home-assistant.io/images/getting-started/onboarding_integrations.png)
-*Automatic device discovery notification in Home Assistant 2025*
-
-![Modern Dashboard](https://www.home-assistant.io/images/dashboards/masonry.png)  
-*Example dashboard with Carenuity devices using modern card layouts*
-
-## 🚀 Advanced Examples & Templates
+##  Advanced Examples & Templates
 
 ### Smart Air Quality Monitor Setup
 ```yaml
@@ -323,7 +256,7 @@ automation:
     action:
       - service: notify.mobile_app
         data:
-          message: "⚠️ Air quality is poor in {{ trigger.to_state.attributes.friendly_name }}"
+          message: " Air quality is poor in {{ trigger.to_state.attributes.friendly_name }}"
           title: "Air Quality Alert"
           data:
             push:
@@ -349,25 +282,18 @@ automation:
 
 ### Official Links
 - **🌐 Carenuity Platform:** [solutions.carenuity.com](https://solutions.carenuity.com/)
-- **📖 Home Assistant Docs:** [home-assistant.io](https://www.home-assistant.io/)
-- **👥 Community Forum:** [community.home-assistant.io](https://community.home-assistant.io/)
+- **Our Shop:** [chipglobe.shop](https://www.chipglobe.shop/) 
+- **Community Forum:** [carenuity.com](https://carenuity.com/)
 
-### Development Resources  
-- **🛠️ ESPHome:** [esphome.io](https://esphome.io/) - Alternative firmware platform
-- **📱 HA Mobile Apps:** [iOS](https://apps.apple.com/app/home-assistant/id1099568401) | [Android](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android)
-- **🔧 Web Serial API:** [developer.chrome.com](https://developer.chrome.com/articles/serial/)
-
----
 
 ## 📄 License & Contribution
 
 **© 2025 ChipGlobe GmbH** - ChipGlobe™ and Carenuity™ are trademarks of ChipGlobe GmbH
 
 ### Contributing
-- 🔄 **Submit Issues:** Report bugs or request features via GitHub issues
-- 🚀 **Pull Requests:** Improve device recipes, documentation, and integration examples  
-- 💬 **Community:** Join discussions in Home Assistant forums
-- 📖 **Documentation:** Help translate and improve setup guides
+- **Submit Issues:** Report bugs or request features via GitHub issues
+- **Pull Requests:** Improve device recipes, documentation, and integration examples  
+For any customised firmware reach out to me via mwalatimo@gmail.com  
 
 ### Supported Ecosystems
 - ✅ **Home Assistant** - Primary integration target
